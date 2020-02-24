@@ -64,6 +64,16 @@
             </objects>
             <point key="canvasLocation" x="984.05797101449286" y="-26.116071428571427"/>
         </scene>
+        <!--Colors-->
+        <scene sceneID="7V1-Sh-pIO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Colors" id="ehx-qE-PJ9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="KLi-wt-UAW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oy3-7x-YEc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="637"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="opV-kU-ei9">
             <objects>
@@ -75,11 +85,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="vys-jO-h2o" kind="relationship" relationship="viewControllers" id="fSV-tH-hgF"/>
+                        <segue destination="ehx-qE-PJ9" kind="relationship" relationship="viewControllers" id="3C6-iN-yQ4"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CBv-bA-HPu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-51" y="-26"/>
+            <point key="canvasLocation" x="-81" y="346"/>
         </scene>
     </scenes>
     <resources>
